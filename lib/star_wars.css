@@ -22,6 +22,7 @@
 #sw-weapons .weapon-item {
   padding: 2px;
   background-color: #474747;
+  margin-bottom: 8px;
 }
 
 #sw-weapons .weapon-item, #sw-weapons .weapon-item * {
@@ -39,7 +40,7 @@
 }
 
 .sight-cursor * {
-  cursor: url(packages/jss_star-wars/assets/img/sight.png) 25 25, auto;
+  cursor: url(/packages/jss_star-wars/assets/img/sight.png) 25 25, auto !important;
 }
 
 a.disabled {
