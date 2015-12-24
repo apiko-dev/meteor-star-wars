@@ -28,10 +28,6 @@
   cursor: pointer;
 }
 
-#sw-weapons .weapon-item[data-weapon-type="blaster"] img {
-  padding: 10px;
-}
-
 #sw-weapons .img-wrapper.selected {
   background-color: #E3E2E2;
 }
@@ -43,7 +39,7 @@
 }
 
 .sight-cursor * {
-  cursor: url(assets/img/sight.png) 25 25, auto;
+  cursor: url(packages/jss_star-wars/assets/img/sight.png) 25 25, auto;
 }
 
 a.disabled {
@@ -124,7 +120,7 @@ body {
   display: block;
 }
 
-.starwars-footer, .page-wrap:after {
+.star-wars-footer, .page-wrap:after {
   height: 265px;
 }
 
@@ -139,6 +135,6 @@ body {
   opacity: 1;
 }
 
-.starwars-footer {
+.star-wars-footer {
   background: transparent;
 }

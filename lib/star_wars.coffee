@@ -14,21 +14,21 @@ Template.body.events
         size: 20
         forceСoefficient: 0.01,
         countDown: 0,
-        mark: '/packages/starwars/assets/img/blast-mark.png'
+        mark: '/packages/jss_star-wars/assets/img/blast-mark.png'
     else if weaponType == 'cannon'
       weaponItem =
         type: weaponType
         size: 60
         forceСoefficient: 0.4
         countDown: 0
-        mark: '/packages/starwars/assets/img/blast-mark.png'
+        mark: '/packages/jss_star-wars/assets/img/blast-mark.png'
     else if weaponType == 'death-star'
       weaponItem =
         type: weaponType
         size: 200
         forceСoefficient: 1
         countDown: 38
-        mark: '/packages/starwars/assets/img/DeathStar.png'
+        mark: '/packages/jss_star-wars/assets/img/DeathStar.png'
     else
       weaponItem = null
 

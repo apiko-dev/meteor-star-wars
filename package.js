@@ -1,6 +1,6 @@
 Package.describe({
   name: 'jss:star-wars',
-  version: '1.0.0',
+  version: '1.0.4',
   summary: 'Destroy the web-site with a bunch of weapons from the Star Wars movie',
   git: 'https://github.com/JSSolutions/meteor-star-wars',
   documentation: 'README.md'
@@ -27,16 +27,12 @@ Package.onUse(function(api) {
     'assets/img/blast-mark.png',
     'assets/img/sight.png',
     'assets/img/skull.png',
-    'assets/img/target.png',
     'assets/img/weapons/blaster.png',
-    'assets/img/weapons/cannon.jpg',
     'assets/img/weapons/death-star.jpg',
     'assets/img/weapons/Ship.jpeg',
     'assets/img/DeathStar.png',
     'assets/img/VaderFail.gif',
-    'assets/img/Logo.jpg',
-    'assets/img/ion2.png',
-     'assets/img/starwars-logo.png'
+    'assets/img/star-wars-logo.png'
   ], 'client');
 
   // Audio
