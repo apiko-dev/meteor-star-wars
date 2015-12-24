@@ -1,6 +1,6 @@
 Package.describe({
   name: 'jss:star-wars',
-  version: '1.0.4',
+  version: '1.0.5',
   summary: 'Destroy the web-site with a bunch of weapons from the Star Wars movie',
   git: 'https://github.com/JSSolutions/meteor-star-wars',
   documentation: 'README.md'
@@ -10,6 +10,10 @@ Package.onUse(function(api) {
   api.versionsFrom('METEOR@1.2.1');
   api.use('meteor-platform');
   api.use('coffeescript');
+  api.use([
+    'twbs:bootstrap',
+    'fortawesome:fontawesome'
+  ], 'client');
 
   // Files
   api.addFiles([
