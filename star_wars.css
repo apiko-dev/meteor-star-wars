@@ -1,0 +1,144 @@
+#sw-weapons {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100px;
+  background-color: #050505;
+  padding: 10px 10px 10px 8px;
+  border-left: 2px solid #474747;
+  border-top: 2px solid #474747;
+  z-index: 10000;
+}
+
+#sw-weapons #sw-logo img {
+  width: 80px;
+  margin-top: -10px;
+}
+
+#sw-weapons .weapon-item img {
+  background-color: #000;
+}
+
+#sw-weapons .weapon-item {
+  padding: 2px;
+  background-color: #474747;
+}
+
+#sw-weapons .weapon-item, #sw-weapons .weapon-item * {
+  cursor: pointer;
+}
+
+#sw-weapons .weapon-item[data-weapon-type="blaster"] img {
+  padding: 10px;
+}
+
+#sw-weapons .img-wrapper.selected {
+  background-color: #E3E2E2;
+}
+
+#sw-hint {
+  font-size: 12px;
+  text-align: right;
+  color: #fff;
+}
+
+.sight-cursor * {
+  cursor: url(assets/img/sight.png) 25 25, auto;
+}
+
+a.disabled {
+  pointer-events: none;
+}
+
+.vader-gif {
+  text-align: center;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.vader-gif img {
+  width: 100%;
+  height: auto;
+}
+
+#titles {
+  text-align: center;
+  font-size: 400%;
+}
+#sw-title {
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #000;
+}
+
+/* Share buttons*/
+.sw-sharing-buttons {
+  margin-top: 20px;
+  margin-bottom: 14px;
+}
+
+.sw-sharing-buttons ul li {
+  line-height: normal;
+}
+
+.mask-galaxy {
+  background: url(http://www.jpl.nasa.gov/spaceimages/v2/getMediumImage.php?id=PIA03519) center center;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-animation: travelGalaxy 10s linear infinite;
+  -moz-animation: travelGalaxy 10s linear infinite;
+  -moz-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-animation: travelGalaxy 10s linear infinite;
+  -o-text-fill-color: transparent;
+  -o-background-clip: text;
+  -o-animation: travelGalaxy 10s linear infinite;
+}
+
+@-webkit-keyframes travelGalaxy {
+  0% {background-position: right bottom;}
+  100% {background-position: left top;}
+}
+
+@-moz-keyframes travelGalaxy {
+  0% {background-position: right bottom;}
+  100% {background-position: left top;}
+}
+
+/* Footer */
+html,
+body {
+  margin:0;
+  padding:0;
+  height:100%;
+}
+
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -265px;
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+.starwars-footer, .page-wrap:after {
+  height: 265px;
+}
+
+.sw-reset > i {
+  opacity: 0.5;
+  font-size: 100px;
+  margin: 50px;
+  cursor: pointer;
+}
+
+.sw-reset > i:hover {
+  opacity: 1;
+}
+
+.starwars-footer {
+  background: transparent;
+}
