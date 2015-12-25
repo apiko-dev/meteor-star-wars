@@ -33,6 +33,21 @@
   background-color: #E3E2E2;
 }
 
+#sw-weapons footer {
+  font-size: 12px;
+  color: #fff;
+  text-align: right;
+  border-top: 1px solid #323232;
+  margin: 10px -10px -10px -10px;
+  padding: 10px;
+}
+
+#sw-weapons footer a, #sw-weapons footer a:hover {
+  font-size: 12px;
+  color: #FF9300;
+  border-bottom: 1px solid #FF9300;
+}
+
 #sw-hint {
   font-size: 12px;
   text-align: right;
@@ -62,6 +77,7 @@ a.disabled {
   text-align: center;
   font-size: 400%;
 }
+
 #sw-title {
   margin-bottom: 10px;
   font-size: 30px;
@@ -103,12 +119,8 @@ a.disabled {
   100% {background-position: left top;}
 }
 
-/* Footer */
-html,
-body {
-  margin:0;
-  padding:0;
-  height:100%;
+body.exploded {
+  padding-top: 60px;
 }
 
 .page-wrap {

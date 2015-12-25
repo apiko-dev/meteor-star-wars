@@ -182,6 +182,7 @@ Template.body.onRendered ->
       @state = 'explose'
       if @type == 'death-star'
         $(@body).html('')
+        $(@body).addClass('destroyed');
         Blaze.render(Template.swAfterExplosion, @body)
 
     exploded: ->
