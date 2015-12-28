@@ -1,6 +1,6 @@
 Package.describe({
   name: 'jss:star-wars',
-  version: '1.1.3',
+  version: '1.1.4',
   summary: 'Destroy the web-site with a bunch of weapons from the Star Wars movie',
   git: 'https://github.com/JSSolutions/meteor-star-wars',
   documentation: 'README.md'
