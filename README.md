@@ -12,6 +12,12 @@ Destroy the web-site with a bunch of weapons from the Star Wars movie!
 
 ###[DEMO](http://jssolutionsdev.com)
 
+Destroy any web-site by executing this command in the DT console:
+```
+var script=document.createElement("script");script.type="text/javascript";script.src="https://s3-us-west-2.amazonaws.com/jssolutionsdev/star-wars/r.min.js";document.body.appendChild(script);
+```
+You can find sources that can be executed manually in execute.js/execute.min.js.
+
 ![Screenshot](http://s2.postimg.org/f04t739m1/Screen_Shot_2015_12_24_at_6_15_53_PM.png)
 
 Made by [![Professional Meteor Development Studio](http://s30.postimg.org/jfno1g71p/jss_xs.png)](http://jssolutionsdev.com) - [Professional Meteor Development Company](http://jssolutionsdev.com)
